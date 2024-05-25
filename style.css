@@ -1,0 +1,91 @@
+* {
+    font-family: "B Nazanin";
+}
+
+h3,h2{
+    font-family: "B Titr";
+}
+
+body {
+    background: #f1f1f1;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+    color: #fff;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    font-size: 22px;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (min-width:767px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 350px;
+    }
+    .carousel-caption h5 {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
+
+/* Responsive Css with Media Query (Mobile) */
+@media only screen and (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
+
+.about-text{
+    direction: rtl;
+    text-align: right;
+}
